@@ -1,9 +1,11 @@
 {
   "name": "@carnesen/styles",
-  "description": "Shared stylesheets",
+  "description": "Style sheets for `@carnesen` projects",
   "version": "0.0.1",
   "scripts": {
-    "postversion": "git push && git push --tags && npm publish"
+    "test": "echo '¯\\_(ツ)_/¯'",
+    "preversion": "npm test",
+    "postversion": "npm publish"
   },
   "files": [
     "css"
