@@ -10,7 +10,7 @@ npm install @carnesen/styles
 
 ## Usage
 ```js
-import '@carnesen/styles/css/default.css';
+import '@carnesen/styles/css/reset.css';
 ```
 
 ## Related
